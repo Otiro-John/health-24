@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nyahena Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="inner-width">
+            <h2>Nyahena Health</h2>
+        <div class="menu-toggler ">
+       <span></span>  
+       <span></span>  
+       <span></span>  
+        </div>    
+       <div class="navbar-menu">
+       <a href="#home">Home</a>    
+       <a href="#about">About</a>     
+       <a href="#services">services</a>  
+       <a href="#contact">Contact</a>
+       </div>    
+                 
+       </div>    
+       </nav> 
+<section id="home">
+<div class="home">
+<h1>Welcome To Nyahena Health<br>Foundation</h1>
+<p>Here we help people and provide them with the needed<br> best possible services.</p>
+<a href="#contact"><button>Join Us</button></a>
+</div>
+</section>
+
+<section id="about" class="section">
+<h2>About Our Community</h2>
+<div class="about">
+<div class="about-text">
+<p>NYAHEN was started as a community based organization in 2017 to mitigate the impact of 
+HIV/AIDS through community participation. Its initial activities were geared towards increasing 
+acceptance of people living with AIDS within communities,
+integration of orphans care into family units and the economic empowerment of people living with HIV/AIDS.
+</p>
+<a href="about.html"><button>Read more <i class="fa-solid fa-arrow-right"></i></button></a>
+</div>
+<div class="about-img">
+<img src="images/p2.jpeg" alt="about">
+</div>
+</div>
+</section>
+
+
+<section id="services" class="section">
+<h2>What We Provide</h2>
+<div class="services">
+<div class="service">
+<img src="images/p12.jpeg" alt="service1">
+<h3>Ovc Support In Kenya</h3>
+<a href="do.html"><button>Check Out</button></a>
+</div>
+
+<div class="service">
+<img src="images/p11.jpeg" alt="service1">
+<h3>Adult Care And Support</h3>
+<a href="do.html"><button>Check Out</button></a>
+</div>
+
+
+
+<div class="service">
+<img src="images/p10.jpeg" alt="service1">
+<h3>Community Health Program</h3>
+<a href="do.html"><button>Check Out</button></a>
+</div>
+
+
+
+<div class="service">
+<img src="images/p6.jpeg" alt="service1">
+<h3>Adult TreatMent</h3>
+<a href="do.html"><button>Check Out</button></a>
+</div>
+
+
+
+<div class="service">
+<img src="images/p7.jpeg" alt="service1">
+<h3>Peadtric Care And Support</h3>
+<a href="do.html"><button>Check Out</button></a>
+</div>
+
+
+<div class="service">
+<img src="images/p8.jpeg" alt="service1">
+<h3>TB / HIV</h3>
+<a href="do.html"><button>Check Out</button></a>
+</div>
+
+
+</section>
+
+
+<section id="contact" class="section">
+<h2>Get In Touch With Us For More</h2>
+<div class="contact">
+<div class="contact-info">
+<p><i class="fa-solid fa-map-marker"></i>   Migori</p>
+</div>
+
+<div class="contact-info">
+<p><i class="fa-solid fa-phone"></i>   +254721513763</p>
+</div>
+
+<div class="contact-info">
+<p><i class="fa-solid fa-envelope"></i>   nyanzahealth111@gmail.com</p>
+</div>
+
+
+
+</div>
+</section>
+
+<section class="footer">
+<h2>Thank you all for visiting.</h2>
+<p>&copy;Copyright 2023</p>
+<p>Follow us:
+<a href="http://https://www.facebook.com/RobinsonDinga"><i class="fa-brands fa-facebook"></i></a>
+<a href="http://https://www.instagram.com/robinsondinga"><i class="fa-brands fa-instagram"></i></a>
+<a href="http://https://www.twitter.com/@Phelixodhiambo5"><i class="fa-brands fa-twitter"></i></a>
+</p>
+</section>
+
+<script>
+var navbar = document.querySelector(".navbar");
+window.onscroll=function(){
+if(this.scrollY > 20){
+navbar.classList.add("sticky");
+}
+else{
+navbar.classList.remove("sticky");
+}
+}
+var list = document.querySelector(".navbar-menu");
+var menu = document.querySelector(".menu-toggler");
+menu.addEventListener("click",function(){
+this.classList.toggle("active");
+ list.classList.toggle("active");  
+ });
+            
+</script>     
+
+</body>
+</html>
